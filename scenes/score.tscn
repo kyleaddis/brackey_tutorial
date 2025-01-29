@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://diqusm6qkklmw"]
+
+[ext_resource type="FontFile" uid="uid://cq636cnm8htx" path="res://assets/fonts/PixelOperator8.ttf" id="1_g2kwo"]
+[ext_resource type="Script" path="res://scripts/score.gd" id="1_qofu3"]
+
+[node name="Score" type="CanvasLayer"]
+script = ExtResource("1_qofu3")
+
+[node name="cointcount" type="Label" parent="."]
+unique_name_in_owner = true
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("1_g2kwo")
+text = "coins"
